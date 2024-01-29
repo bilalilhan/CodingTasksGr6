@@ -1,4 +1,4 @@
-package Questions;
+package Questions.week1;
 
 public class OddOrEven {
     /*Write  a method which can identify given number is even or odd
