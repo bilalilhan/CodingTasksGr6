@@ -6,7 +6,13 @@ public class OddOrEven {
     identify(5); ->"Odd"
     identify(6); ->"Even"*/
     public static void main(String[] args) {
-
+identifyOddEven(5);
+    }
+    public  static  void  identifyOddEven( int  n ) {
+        if(n%2==0){
+            System.out.println("even");}
+        else{
+            System.out.println("odd");}
     }
 
 }
