@@ -19,5 +19,11 @@ public class OddOrEven {
 
 OddOrEvenMethod(5);
 
+
+// Just added these lines
+        OddOrEvenMethod(10);
+        OddOrEvenMethod(13);
+        OddOrEvenMethod(22);
+
     }
 }
