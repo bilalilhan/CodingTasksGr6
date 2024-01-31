@@ -15,15 +15,15 @@ public class Finra {
                 result+="FINRA ";
 
             } else if (i%3==0) {
-                result+="FIN\n ";
+                result+="FIN ";
             } else if (i%5==0) {
-                result+="RA\n";
+                result+="RA ";
             }else {
-                result=" ";
+                result+=" "+i+" ";
             }
-            System.out.println(result);
-            System.out.println(i);
-        }
 
+
+        }
+        System.out.println(result);
     }
 }
