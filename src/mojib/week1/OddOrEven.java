@@ -5,7 +5,19 @@ public class OddOrEven {
     Output ex:
     identify(5); ->"Odd"
     identify(6); ->"Even"*/
+
+
+        public static void OddOrEvenMethod(int number){
+            if (number %2 ==0){
+                System.out.println(number+ " is an Even number ");
+            }else {
+                System.out.println(number+ " is an Odd number ");
+            }
+        }
     public static void main(String[] args) {
+
+
+OddOrEvenMethod(5);
 
     }
 }
