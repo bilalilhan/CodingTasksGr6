@@ -11,7 +11,11 @@ public class DivisionWithoutOperator {
     }
 
     public static void divides(int dividend, int divisor) {
-        if(divisor==0) {
+        if (dividend<0 || divisor<0) { // added 1 more if statement
+            System.err.println("Invalid enter : Please enter positive numbers only");
+            System.exit(1);
+        }
+        else if(divisor==0) {
             System.out.println("Invalid Number");
             return;
         }
