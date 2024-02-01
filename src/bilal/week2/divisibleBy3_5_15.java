@@ -15,7 +15,58 @@ Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84
     public static void main(String[] args) {
 
 
+
+       // divisibleNumbersOf3_5_15(-20); // Invalid entry: -20. Please try with positive numbers!
+       // divisibleNumbersOf3_5_15(0); // Invalid entry: 0. Please try with positive numbers!
+        //divisibleNumbersOf3_5_15(1000);
+
+
+        divisibleNumbersOf3_5_15(100);
+        //Divisible By 15 ==> 15 30 45 60 75 90
+        //Divisible By 5  ==>  5 10 20 25 35 40 50 55 65 70 80 85 95 100
+        //Divisible By 3  ==>  3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
     }
 
+
+    // lets create a method to print numbers based on divisibility by
+    // 15
+    // ONLY 5 (not 3 and 5 at the same time >>>> not 15 ), and
+    // ONLY 3 (not 3 and 5 at the same time >>>> not 15 )
+
+    public static void divisibleNumbersOf3_5_15(int number) {
+
+        if (number <=0 ) {
+            System.err.println("Invalid entry: " + number +". Please try with positive numbers!");
+            System.exit(1);
+        }
+
+        System.out.print("Divisible By 15 ==> ");
+        for (int i = 1; i <= number; i++) {
+            if ( i % 15 == 0) { // divisible by 15
+                System.out.print(i + " ");
+            }
+        }
+
+        System.out.print("\nDivisible By 5  ==>  ");
+        for (int i = 1; i <= number; i++) {
+            if (i % 5 == 0 && !( i %15 == 0 ) ) { // divisible by 5 and NOT divisible by 15
+                System.out.print(i + " ");
+            }
+        }
+
+        System.out.print("\nDivisible By 3  ==>  ");
+        for (int i = 1; i <= number; i++) {
+            if (i % 3 == 0  && !( i % 15 == 0 ) ) { // divisible by 3 and NOT divisible by 15
+                System.out.print(i + " ");
+            }
+        }
+    }
+
+
+
+
+
 }
+
+
 
