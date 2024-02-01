@@ -12,7 +12,7 @@ public class Finra {
 
     }
 
-    public static void finraEX1() //without return statement & arguments
+    public static void finraEX1() //without return statement & arguments and replacing numbers with, "FIN", "RA", "FINRA"
     {
         for(int i=1; i<=30; i++)
         {
@@ -35,7 +35,7 @@ public class Finra {
         }
     }
 
-    public static String finraEX2(int maxNum) //with return statement and arguments
+    public static String finraEX2(int maxNum) //with return statement and arguments and replacing numbers with, "FIN", "RA", "FINRA"
     {
 /*
 Note- I might as well do the iteration only up-till 30,
@@ -60,7 +60,7 @@ but, I declared maxNum so as not to keep iteration only to 30 but can be up-till
         return result;
     }
 
-    public static String finraEX3(int maxNum)
+    public static String finraEX3(int maxNum) //with return statement and arguments and not replacing numbers with, "FIN", "RA", "FINRA"
     {
 /*
 Note- I might as well do the iteration only up-till 30,
