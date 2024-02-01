@@ -1,7 +1,7 @@
 package bilal.week2;
 public class swapTwoNumbers {
     //Swap two variable' values without using a third variable
-
+  // using temporary variable is easer than this way
 
     public static void main(String[] args) {
 
