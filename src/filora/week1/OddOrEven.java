@@ -9,18 +9,13 @@ public class OddOrEven {
       oddOrEven(2);
       oddOrEven(3);
       oddOrEven(4);
+      oddOrEven(7);
       }
-
       public static void oddOrEven(int n){
       if(n%2==0){
          System.out.println("even");}
       else{
          System.out.println("odd");
          }
-
-
-
-
-
    }
 }
