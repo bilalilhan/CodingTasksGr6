@@ -4,25 +4,27 @@ public class DivisionWithoutOperator {
     //Write a method that can divide two numbers without using division operator
    public static void main(String[] args){
 
-      divides(6,4);
-      divides(8,2);
-      divides(10,5);
-      divides(-6,2);
+      divides(6,2);
+      divides(6,0);
       }
-      public static void divides(int num1, int num2){
+      public static void divides(int dividend, int divisor){
 
-      if(num2==0){
-         System.out.println("invalid number");
+      if(divisor==0){
+         System.out.println("Can't divide by zero");
          return;
          }
-      System.out.println(num1 + " divide by " + num2 + " is ");
-      int count =0;
-      while(num1 >= num2){
-         num1 -= num2;
-         count++;
+      System.out.println(dividend + " divided by " + divisor + " is ");
+      int quotient = 0;
+      while(dividend >= divisor){
+         dividend -= divisor;
+         quotient++;
          }
-      System.out.println(count);
+      System.out.println(quotient + " and remainder is " + dividend);
       }
 
       }
 
+
+//formula: dividend = quotient * divisor + reminder
+// >: greater than
+// <: less than
