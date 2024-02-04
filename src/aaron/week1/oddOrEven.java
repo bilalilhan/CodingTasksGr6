@@ -1,13 +1,8 @@
-package muhammad.week1;
+package aaron.week1;
 
-public class OddOrEven {
-    /*Write  a method which can identify given number is even or odd
-    Output ex:
-    identify(5); ->"Odd"
-    identify(6); ->"Even"*/
-
+public class oddOrEven {
     public static void main(String[] args) {
-//Write  a method which can identifies given number is even or odd
+        //Write  a method which can identifies given number is even or odd
 
         identifyOddEven(5);
         identifyOddEven(6);
