@@ -7,7 +7,6 @@ public class Finra {
     //for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
     public static void main(String[] args) {
     FINRA();
-
 }
         public static void FINRA() {
             String result = "";
