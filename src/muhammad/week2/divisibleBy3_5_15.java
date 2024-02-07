@@ -13,8 +13,34 @@ Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84
 */
 public static void main(String[] args) {
 
+    // Numbers divisible by 15
+    System.out.println("Divisible By 15");
+    for (int i = 1; i <= 100; i++) {
+        // Check if the current number is divisible by 15
+        if (i % 15 == 0) {
+            System.out.print(i + " "); // Print the number if divisible by 15
+        }
+    }
+
+    // Numbers divisible by 5 but not by 15
+    System.out.println("\nDivisible By 5");
+    for (int i = 1; i <= 100; i++) {
+        // Check if the current number is divisible by 5 but not by 15
+        if (i % 5 == 0 && i % 15 != 0) {
+            System.out.print(i + " "); // Print the number if divisible by 5 but not by 15
+        }
+    }
+
+    // Numbers divisible by 3 but not by 15
+    System.out.println("\nDivisible By 3");
+    for (int i = 1; i <= 100; i++) {
+        // Check if the current number is divisible by 3 but not by 15
+        if (i % 3 == 0 && i % 15 != 0) {
+            System.out.print(i + " "); // Print the number if divisible by 3 but not by 15
+        }
+    }
 }
 
 
-}
 
+}
