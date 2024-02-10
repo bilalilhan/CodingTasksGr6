@@ -1,2 +1,51 @@
-package filora.week2;public class printConsecutiveNumbers {
-}
+
+public class printConsecutiveNumbers {
+         /*  Write a function: that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line.
+         However, any number divisible by 2, 3 or 5 should be replaced by  the word Codility,
+         Test or Coders respectively.
+
+         If a number is divisible by more than one of the numbers: 2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order.
+
+         For example, numbers divisible by both 2 and 3 should be replacée by CodilityTest and numbers divisible by all three numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
+
+        For example, here is the output for N = 24:
+        1
+        Codility
+        Test
+        Codility
+        Coders
+        CodilityTest
+        7
+        Codility
+        Test
+        Codi1ityCoders
+        11
+        CodilityTest
+        13
+        Codility
+        TestCoders
+        Codility
+        17
+*/
+         public static void main(String[] args) {
+            outputNumber(24);
+         }
+
+            public static void outputNumber(int num){
+               for(int i = 0; i <= num; i++) {
+
+                  }
+            //num divisible by all three nums: 2,3 and 5, should be replaced by CodilityTestCoders.
+            //num divisible by 2 should be replaced by Codility
+
+            //num divisible by 3 should be replaced by the word Test
+
+            //num divisible by 5 should be replaced by the word Coders
+
+            /*If a number is divisible by more than one of the numbers: 2,3 or 5, it should be
+            replaced by a concatenation of the respective words Codility, Test and Coders in this given order.*/
+
+            //num divisible by both 2 and 3 should be replaced by CodilityTest
+
+                  }
+               }
