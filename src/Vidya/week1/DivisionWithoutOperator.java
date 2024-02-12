@@ -7,6 +7,8 @@ public class DivisionWithoutOperator {
         divides(12,3);
         divides(43,0);
         divides(0,25);
+        divides(83,0);
+
 
     }
 
