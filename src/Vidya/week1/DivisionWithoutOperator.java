@@ -7,6 +7,8 @@ public class DivisionWithoutOperator {
         divides(12,3);
         divides(43,0);
         divides(0,25);
+        divides(83,0);
+
 
     }
 
@@ -20,12 +22,12 @@ public class DivisionWithoutOperator {
             return;
         }
         System.out.print(dividend +" divided by "+divisor +" is: ");
-        int quotient= 0;
+        int increament= 0;
         while(dividend >= divisor) {
             dividend -= divisor;
-            quotient++;
+            increament++;
         }
-        System.out.println(quotient +" and remainder is "+ dividend);
+        System.out.println(increament +" and remainder is "+ dividend);
     }
 
 //formula- dividend= quotient* divisor+ reminder

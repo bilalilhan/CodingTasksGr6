@@ -13,7 +13,34 @@ Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84
 */
 public class divisibleBy3_5_15 {
     public static void main(String[] args) {
+        numbers3_5_15();
 
     }
+
+    public static void numbers3_5_15()
+    {
+        System.out.print("Divisible by 15- ");
+        for (int i=1; i<=100; i++)
+        {
+            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0)
+                System.out.print(+i + " ");
+        }
+        System.out.println();
+        System.out.print("Divisible by 5- ");
+        for (int i=1; i<=100; i++)
+        {
+            if (i % 5 == 0)
+                System.out.print(+i + " ");
+        }
+        System.out.println();
+        System.out.print("Divisible by 3- ");
+        for (int i=1; i<=100; i++)
+        {
+            if (i % 3 == 0)
+                System.out.print(+i + " ");
+        }
+    }
 }
+
+
 
