@@ -3,7 +3,7 @@ package Rubinah.week4;
 public class FrequencyOfCharacters {
     public static void main(String[] args) {
 
-        String str ="AAABBCDD";// I should get this fre A3B2C1D2
+        String str ="AAABBCDD";// I have code with 8 ch,I should get this fre A3B2C1D2
 
         String result ="";
         //I created this  empty string to store the final  ch A3B2C1D2 output on this result
@@ -12,11 +12,12 @@ public class FrequencyOfCharacters {
 
 
         for(int j =0; j<str.length(); j++) {
-         // this loop help me  find index 0 until the last index this repeat
+         // this loop help me  find index 0, until the last index this repeat
             char ch = str.charAt(j);
-            int count = 0;
             //this variable give the fre first ch
             // and then the loop execute for second time it will site the zero
+            int count = 0;
+
             //this loop it can find the second ch
             for (int i= 0; i < str.length(); i++) {
                 if (str.charAt(i) == ch) {
