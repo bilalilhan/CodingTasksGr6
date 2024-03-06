@@ -18,7 +18,7 @@ public class RemoveDuplicates {
     public static String removeDup(String str1) {
         String noneDup = "";
 
-        str1.split("");
+        //str1.split("");
         for (String each : str1.split("")) {
             if (noneDup.contains(each)) {
                 continue;
