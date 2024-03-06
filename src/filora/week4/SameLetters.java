@@ -7,7 +7,7 @@ public class SameLetters {
     Ex:  same("abc",  "cab"); -> true
     same("abc",  "abb"); -> false:*/
 
-   public class StringComparator {
+  // public class StringComparator {
 
       public static boolean same(String s1, String s2) {
          if (s1 == null || s2 == null) {
@@ -35,6 +35,6 @@ public class SameLetters {
          System.out.println(same("abc", "cab")); // true
          System.out.println(same("abc", "abb")); // false
       }
-   }
+ //  }
 
 }
