@@ -6,9 +6,6 @@ public class SameLetters {
     /*Write a return method that check if a string is build out of the same letters as another string.
     Ex:  same("abc",  "cab"); -> true
     same("abc",  "abb"); -> false:*/
-
-  // public class StringComparator {
-
       public static boolean same(String s1, String s2) {
          if (s1 == null || s2 == null) {
             return false; // Handling null cases
@@ -35,6 +32,4 @@ public class SameLetters {
          System.out.println(same("abc", "cab")); // true
          System.out.println(same("abc", "abb")); // false
       }
- //  }
-
-}
+   }
