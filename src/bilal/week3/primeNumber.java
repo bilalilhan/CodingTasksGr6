@@ -3,7 +3,7 @@ package bilal.week3;
 import java.util.InputMismatchException;
 
 public class primeNumber {
-     // Write a method that can check if a number is prime or not
+    // Write a method that can check if a number is prime or not
 
 
 
@@ -43,6 +43,3 @@ public class primeNumber {
     }
 
 }
-
-
-

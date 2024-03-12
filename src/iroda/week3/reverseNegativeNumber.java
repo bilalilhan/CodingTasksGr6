@@ -1,0 +1,18 @@
+package iroda.week3;
+
+import ameneh.week3.ReverseNegativeNumber;
+
+import java.util.Scanner;
+
+
+public class reverseNegativeNumber {
+
+
+    //Write a return method that can reverse digits of a negative number and return it as int
+    //input: -35  output: -53
+
+
+
+    }
+
+

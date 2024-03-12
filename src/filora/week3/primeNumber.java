@@ -7,7 +7,7 @@ public class primeNumber {
    public static void main(String[] args) {
       int number = 30; // Change this number to check if it's prime
 
-      // Print whether the number is prime or not using ternary operator
+      // Print whether the number is prime or not
       if (isPrime(number))
          System.out.println(number + " is Prime");
       else
@@ -24,8 +24,7 @@ public class primeNumber {
       // Iterate through each number from 2 to num / 2
       for (int i = 2; i <= num / 2; i++) {
          // If 'number' is divisible by 'i', it's not prime
-         if (num % i == 0)
-            return false;
+         if (num % i == 0);
       }
       // If 'num' is not divisible by any number from 2 up to half of its value, it's prime
       return true;
