@@ -2,6 +2,9 @@ package Rubinah.week8;
 
 
 public class NuniqueIntegersThatSumUpTo0 {
+    public static void main(String[] args) {
+
+    }
     /*Write a function:
     that, given an integer N (1 < N < 100), returns an array containing N unique integers that sum up to 0.
     The function can return any such array. For example, given N = 4, the function could return [1,0, -3,2] or [-2,1, -4,5].

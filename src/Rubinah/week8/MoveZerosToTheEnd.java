@@ -2,6 +2,9 @@ package Rubinah.week8;
 
 
 public class MoveZerosToTheEnd {
+    public static void main(String[] args) {
+
+    }
     /*Write a method that can move all the zeros to  last indexes of the array (Do Not Use Sort Method)
     Ex:
     input:  {1,0,2,0,3,0,4,0};
