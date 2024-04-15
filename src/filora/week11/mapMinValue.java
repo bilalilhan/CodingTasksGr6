@@ -11,7 +11,7 @@ public class mapMinValue {
       scores.put("Alice", 88);
       scores.put("Bob", 95);
       scores.put("Charlie", 82);
-      scores.put("Diana", 95);
+      scores.put("Diana", 96);
 
       int minValue = Collections.min(scores.values());
       System.out.println("The minimum score is: " + minValue);
